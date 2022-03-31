@@ -1,20 +1,309 @@
-caption {
+.masthead {
+  height: 100vh;
+  min-height: 30rem;
+  position: relative;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%), url(../web_demo/IMG/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.px-lg-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.masthead h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5rem;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.container .h3 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: #19657c;
+
+}
+
+.cont2{
+  background-color: #19657c;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+section {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .px-lg-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.content-section-heading .h3 {
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(216, 164, 32);
+}
+
+.text-warning {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.content-section-heading .h2 {
+  font-size: 3rem;
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1d809f;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline-fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+p {
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 992px) {
+  .gx-lg-5 {
+    --bs-gutter-x: 3rem;
+  }
+}
+
+.row {
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+}
+
+@media (min-width: 992px) {
+  .mb-lg-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+
+.callout {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%), url(../IMG/bg-callout.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callout h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  height: 70px;
+}
+.callout a{
+  display: inline-block;
+  padding-top: 1em;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1D809F;
+  border-color: #1D809F;
+}
+
+.btn3 {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fafdff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #1D809F;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out;
+  background-color: 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out;
+  box-shadow: 0.15s ease-in-out;
+}
+.list-inline-item{
+  display: inline-block;
+}
+
+.list-inline{
+  list-style: none;
+}
+
+.portfolio-item {
+  max-width: none;
+  margin: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
   transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
   transition: clip-path 0.25s ease-out, background-color 0.7s;
   transition: clip-path 0.25s ease-out, background-color 0.7s,
     -webkit-clip-path 0.25s ease-out;
   -webkit-clip-path: inset(0px);
   clip-path: inset(0px);
-  position: absolute;
-  z-index: 1;
 }
-portfolio-item:hover caption {
+
+.portfolio-item:hover .caption {
   background-color: rgba(29, 128, 159, 0.9);
   -webkit-clip-path: inset(2rem);
   clip-path: inset(2rem);
 }
 
-img {
+.portfolio-item img {
   transition: -webkit-clip-path 0.25s ease-out;
   transition: clip-path 0.25s ease-out;
   transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
@@ -22,7 +311,8 @@ img {
   clip-path: inset(-1px);
   opacity: 1;
 }
-portfolio-item:hover img {
+
+.portfolio-item:hover img {
   -webkit-clip-path: inset(2rem);
   clip-path: inset(2rem);
   opacity: 0.5;
@@ -30,22 +320,33 @@ portfolio-item:hover img {
   -webkit-ransition: opacity 2s ease-out;
 }
 
-caption-content {
+.portfolio-item .caption .caption-content {
+  transition: opacity 0.25s;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
   color: #fff;
   margin: auto 2rem 2rem;
 }
 
-h6 {
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
   font-size: 0.8rem;
   text-transform: uppercase;
 }
 
-p {
+.p {
   font-weight: 300;
   font-size: 1.2rem;
 }
-#googlemaps-canvas map-generator {
+
+#googlemaps-canvas .text-marker .map-generator {
   max-width: 100%;
   max-height: 100%;
   background: none;
 }
+
+<!--  -->
